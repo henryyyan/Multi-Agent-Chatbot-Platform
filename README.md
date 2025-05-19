@@ -1,6 +1,15 @@
 # Multi-Agent-Chatbot-Platform
 
-• Developed a modular, multi-agent chatbot platform for intelligent customer support automation and internal workflow assistance, utilizing LangGraph for orchestrating agent interactions, MCP (Model Context Protocol) for seamless tool integration, and Ollama for secure, on-premises LLM inference.
+Modular, on-premises customer-support and workflow-automation stack powered by **LangGraph**, **MCP-compliant tools**, and **Ollama** for secure local LLM inference.
 
+---
 
-• Designed and deployed reusable AI-driven tools (e.g., string manipulation, date calculations, database queries) as MCP services, enabling scalable, customizable chatbot solutions that automate routine business processes and enhance user engagement across multiple communication channels.
+## ✨ Key Features
+* **Graph-orchestrated agents** – plug-and-play logic via LangGraph nodes/edges.
+* **MCP tool layer** – drop-in micro-services (string ops, date math, DB queries, …).
+* **On-prem inference** – Ollama container keeps IP and data inside your firewall.
+* **Channel-agnostic UI** – web widget today; Slack / SMS adapters tomorrow.
+
+---
+
+## 🏗️ Architecture
